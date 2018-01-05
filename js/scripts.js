@@ -30,8 +30,6 @@ function createTweet(input) {
 	}
 }
 
-$('.trigger').click(function() {
-		getQuote();
-});
+$('.trigger').click(getQuote);
 
 getQuote();
